@@ -1,0 +1,32 @@
+.brandBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: radial-gradient(
+    128.88% 128.88% at 103.9% -10.39%,
+    #e84d70 0%,
+    #a337f6 53.09%,
+    #28a7ed 100%
+  );
+  padding: 1rem;
+  color: white;
+  /* height: 3rem; */
+
+  /* for mobile screen sizes */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  box-sizing: border-box;
+  z-index: var(--index-5);
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+.brandBanner button {
+  border: none;
+  background: transparent;
+}
