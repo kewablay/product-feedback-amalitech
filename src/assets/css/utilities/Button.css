@@ -1,0 +1,16 @@
+button {
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  font-size: var(--text-400);
+  border-radius: 10px;
+}
+
+button span {
+  margin-right: 0.3rem;
+}
+button #plus {
+  width: 7px;
+  height: 7px;
+}
