@@ -3,7 +3,7 @@ import BrandBanner from "../homepage/BrandBanner";
 import CategoriesCard from "../homepage/CategoriesCard";
 import RoadMapCard from "../homepage/RoadMapCard";
 
-import "../../assets/css/utilities/Sidebar.css";
+import "../../assets/css/layout/Sidebar.css"; 
 
 function Sidebar() {
   const [showMenu, setShowMenu] = useState(false);
